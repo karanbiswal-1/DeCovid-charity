@@ -24,7 +24,7 @@ class homePage extends React.Component {
                  color:"darkgrey"
              }}
              >A Decentralised Transparent Charitable Trust For Covid Paitients</h3>
-            <Link route="/hospitalList">
+            <Link route="/validHospitalList">
              <a><Button 
              style={{width:"300px",
             marginTop:"40px",

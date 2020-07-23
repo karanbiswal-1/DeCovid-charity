@@ -14,7 +14,7 @@ class hospitalList extends React.Component {
             return{
                 header: address,
                 description:( 
-                <Link route={`/hospitals/${address}`}>
+                <Link route={`/validations/${address}`}>
                 <a>view hospital</a>
                 </Link>
                 ),

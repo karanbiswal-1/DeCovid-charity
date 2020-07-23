@@ -17,7 +17,7 @@ console.log('attempting to deploy contract from account', accounts[0]);
 
 const result = await new web3.eth.Contract(JSON.parse(compiledAdmin.interface))
 .deploy({ data: compiledAdmin.bytecode })
-.send({ from: accounts[0], gas: '1000000' });
+.send({ from: accounts[0], gas: '5000000' });
 
 
 

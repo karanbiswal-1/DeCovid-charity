@@ -16,11 +16,11 @@ export default () => {
              
              <Dropdown item text='REGISTER'>
             <Dropdown.Menu>
-              <Link route="/hospitalList"><a className="item">Contribute</a></Link>
+              <Link route="/validHospitalList"><a className="item">Contribute</a></Link>
               <Link route="/hospitals/register"><a className="item">As A Hospital</a></Link>
             </Dropdown.Menu>
           </Dropdown>
-                <Menu.Item>help</Menu.Item>
+             <a href="/help" className="item"> help</a>
             </Menu.Menu>
         </Menu>
         </Segment>

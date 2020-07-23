@@ -18,7 +18,8 @@ class hospitalDetails extends React.Component {
             name: summary[1],
             no: summary[2],
             location: summary[3],
-            contributersCount: summary[4]
+            contributersCount: summary[4],
+            balance: summary[5]
         };
     }
 
@@ -28,7 +29,8 @@ class hospitalDetails extends React.Component {
             name,
             no,
             location,
-            contributersCount
+            contributersCount,
+            balance
         }= this.props;
 
         const items = [
@@ -58,6 +60,11 @@ class hospitalDetails extends React.Component {
                 meta:"Number Of Helpers",
                 description:"be the first to help "
                 
+            },
+            {
+                header:balance,
+                meta:"funds",
+                description:"totals funds available"
             }
         ];
         return <Card.Group items={items} />
@@ -89,6 +96,27 @@ class hospitalDetails extends React.Component {
                              <a><Button
                               style={{ marginTop: '30px', marginLeft: "30px" }}
                               content="view contributer list"
+                              icon="list ul"
+                              color="grey"/></a>
+                               </Link>
+                      </Grid.Column>
+                    </Grid.Row>
+
+                    <Grid.Row>
+                        <Grid.Column width={10}>
+                    <Link route={`/hospitals/${this.props.address}/requests/create`}>           
+                    <a> <Button
+            
+                    content="Send Fund Request "
+                    icon="key"
+                    color='grey'
+                      /></a>
+                      </Link>
+                      
+                          <Link route={`/hospitals/${this.props.address}/requests`}>
+                             <a><Button
+                              style={{ marginLeft: "30px" }}
+                              content="view Request List"
                               icon="list ul"
                               color="grey"/></a>
                                </Link>

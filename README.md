@@ -22,21 +22,30 @@ that bring effectiveness and trust to this platform
 security: This platfrom will allow every hospital to commute and register directly, but still the developer will validify the hospital 
 by analysing details provided ,then only alowed to be funded.
 
+![Valid](https://user-images.githubusercontent.com/61265418/88572410-b75b3d00-d05c-11ea-84be-e99b7cc1b613.gif)
+
 Type of users: There are basicaly three types of users who are involved in this distributed blockchain based platform: Developer,Contributer,
 Hospitals,the role of developer is to validify hospitals .
+
+![Users](https://user-images.githubusercontent.com/61265418/88572435-c2ae6880-d05c-11ea-8079-04643f406fff.gif)
 
 Transparency: Here users will not have to pay a penny for their registration, all they have to is contribute.
 users can check all details of hospitals and afterwards they can contribute whatever amount they want ,there is no minimum contribution
 and then they can see their address and details in that hospital's contributers list.
 This iskind of book keeping dataset which will be transparent ,distributed and shared all over the network.
 
+![Contributer List](https://user-images.githubusercontent.com/61265418/88572457-cb9f3a00-d05c-11ea-8c5b-85538669d89b.gif)
+
 Fund security: All the donation amount are present in contract account of that respective hospitals,and that can be only withdrawn by the 
 registered manager of the hospital and even that can only transfer to manager's account.
 
-![49jbe8](https://user-images.githubusercontent.com/61265418/88510973-ad582080-d001-11ea-870f-4ae58fc71dba.gif)
+![Withdraw](https://user-images.githubusercontent.com/61265418/88572467-cfcb5780-d05c-11ea-88ea-29fa4e427034.gif)
 
 Fund Request: This is added feature in our platform , that any valid hospital can send fund request to another valid hospitals,
 which can be only procedded with the permission of receiver hospital's manager.
+
+![Send Fund Request](https://user-images.githubusercontent.com/61265418/88572476-d5c13880-d05c-11ea-9531-e79c7813c170.gif)
+![View Request](https://user-images.githubusercontent.com/61265418/88572487-d954bf80-d05c-11ea-99b7-ce8e37730dbf.gif)
 
 conlcusion: This is a system for using cryptocurrency for charity work for covid positive paitients, to make it more transparent
 ,trustful we use blockchain technology

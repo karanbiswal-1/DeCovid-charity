@@ -58,7 +58,7 @@ React
 
 
 
-How to use
+/*How to use*/
 
 First clone the repo
 

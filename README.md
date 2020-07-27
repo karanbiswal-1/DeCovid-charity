@@ -50,3 +50,16 @@ which can be only procedded with the permission of receiver hospital's manager.
 conlcusion: This is a system for using cryptocurrency for charity work for covid positive paitients, to make it more transparent
 ,trustful we use blockchain technology
   
+Technology Stack
+Ethereum Blockchain Network
+React
+Android Sdk
+
+How to use
+First clone the repo
+Navigate to this folder in one terminal
+Then run the following commands:
+npm install
+npm start
+node server.js
+Open localhost:3000

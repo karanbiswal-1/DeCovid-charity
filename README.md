@@ -30,7 +30,8 @@ This iskind of book keeping dataset which will be transparent ,distributed and s
 
 Fund security: All the donation amount are present in contract account of that respective hospitals,and that can be only withdrawn by the 
 registered manager of the hospital and even that can only transfer to manager's account.
-<div style="width:360px;max-width:100%;"><div style="height:0;padding-bottom:54.17%;position:relative;"><iframe width="360" height="195" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameBorder="0" src="https://imgflip.com/embed/49jbja"></iframe></div><p><a href="https://imgflip.com/gif/49jbja">via Imgflip</a></p></div>
+
+![49jbe8](https://user-images.githubusercontent.com/61265418/88510973-ad582080-d001-11ea-870f-4ae58fc71dba.gif)
 
 Fund Request: This is added feature in our platform , that any valid hospital can send fund request to another valid hospitals,
 which can be only procedded with the permission of receiver hospital's manager.

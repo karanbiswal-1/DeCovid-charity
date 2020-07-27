@@ -17,6 +17,8 @@ virtual machhine
 Decentralisation: This platform is free of all central institution and intermediateries that will reduce the transaction fees,and moreover 
 that bring effectiveness and trust to this platform
 
+![Register Hospital](https://user-images.githubusercontent.com/61265418/88571970-0d7bb080-d05c-11ea-8969-f5fc75042bb0.gif)
+
 security: This platfrom will allow every hospital to commute and register directly, but still the developer will validify the hospital 
 by analysing details provided ,then only alowed to be funded.
 

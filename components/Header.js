@@ -13,7 +13,7 @@ export default () => {
                 charity
             </Menu.Item></a></Link>
             <Menu.Menu position='right'>
-             
+             <a className="item" href="/hospitalList">Validate Hospitals</a>
              <Dropdown item text='REGISTER'>
             <Dropdown.Menu>
               <Link route="/validHospitalList"><a className="item">Contribute</a></Link>

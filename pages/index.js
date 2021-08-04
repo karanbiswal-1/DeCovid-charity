@@ -4,6 +4,7 @@ import {Button} from 'semantic-ui-react';
 import { Link } from '../routes';
 
 
+
 class homePage extends React.Component {
     render() {
         return(
@@ -12,7 +13,8 @@ class homePage extends React.Component {
             <Layout>
              <div>
              <h1 
-             style={{textAlign: "center",
+             style={{ 
+                textAlign: "center",
             color:"dimgrey",
             fontSize:"50px",
             marginTop:"17%"

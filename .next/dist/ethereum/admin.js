@@ -1,0 +1,21 @@
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _web = require('./web3');
+
+var _web2 = _interopRequireDefault(_web);
+
+var _superAdmin = require('../ethereum/build/superAdmin.json');
+
+var _superAdmin2 = _interopRequireDefault(_superAdmin);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var instance = new _web2.default.eth.Contract(JSON.parse(_superAdmin2.default.interface), '0xa4529C7922Ae747A79A343ABba78594893179Da2');
+
+exports.default = instance;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInVua25vd24iXSwibmFtZXMiOlsiaW5zdGFuY2UiLCJldGgiLCJDb250cmFjdCIsIkpTT04iLCJwYXJzZSIsImludGVyZmFjZSJdLCJtYXBwaW5ncyI6Ijs7Ozs7O0FBQUE7Ozs7QUFDQTs7Ozs7O0FBRUEsSUFBSUEsV0FBVyxJQUFJLGNBQUtDLEdBQUwsQ0FBU0MsUUFBYixDQUFzQkMsS0FBS0MsS0FBTCxDQUFXLHFCQUFXQyxTQUF0QixDQUF0QixFQUF3RCw0Q0FBeEQsQ0FBZjs7a0JBRWVMLFEiLCJmaWxlIjoidW5rbm93biIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB3ZWIzIGZyb20gJy4vd2ViMyc7XG5pbXBvcnQgc3VwZXJBZG1pbiBmcm9tICcuLi9ldGhlcmV1bS9idWlsZC9zdXBlckFkbWluLmpzb24nO1xuXG52YXIgaW5zdGFuY2UgPSBuZXcgd2ViMy5ldGguQ29udHJhY3QoSlNPTi5wYXJzZShzdXBlckFkbWluLmludGVyZmFjZSksICcweGE0NTI5Qzc5MjJBZTc0N0E3OUEzNDNBQmJhNzg1OTQ4OTMxNzlEYTInKTtcblxuZXhwb3J0IGRlZmF1bHQgaW5zdGFuY2U7Il19
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInVua25vd24iXSwibmFtZXMiOlsiaW5zdGFuY2UiLCJldGgiLCJDb250cmFjdCIsIkpTT04iLCJwYXJzZSIsImludGVyZmFjZSJdLCJtYXBwaW5ncyI6Ijs7Ozs7O0FBQUE7Ozs7QUFDQTs7Ozs7O0FBRUEsSUFBSUEsV0FBVyxJQUFJLGNBQUtDLEdBQUwsQ0FBU0MsUUFBYixDQUFzQkMsS0FBS0MsS0FBTCxDQUFXLHFCQUFXQyxTQUF0QixDQUF0QixFQUF3RCw0Q0FBeEQsQ0FBZjs7a0JBRWVMLFEiLCJmaWxlIjoidW5rbm93biJ9

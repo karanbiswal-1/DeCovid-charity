@@ -21,5 +21,8 @@
     "semantic-ui-react": "^0.88.2",
     "solc": "^0.4.26",
     "web3": "^1.0.0-beta.26"
+  },
+  "devDependencies": {
+    "css-loader": "^4.1.1"
   }
 }

@@ -108,7 +108,7 @@ class hospitalDetails extends React.Component {
                     <a> <Button
             
                     content="Send Fund Request "
-                    icon="key"
+                    
                     color='grey'
                       /></a>
                       </Link>
